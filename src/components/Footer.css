@@ -1,0 +1,49 @@
+.row {
+    display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* background: #2C2929; */
+  font-weight: 80px;
+
+}
+
+
+
+  .list-unstyled {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    color:white;
+}
+
+.main-footer {
+  background-color: #2C2929;
+  border: 2px;
+   padding: 50px 0; 
+   margin-top: 800px;
+}
+
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 2px;
+  background: #FFFFFF;
+  margin-bottom: 50px; 
+}
+ .main-footer a {
+  color: white;
+}
+
+.col-sm {color:white;}
+
+.socials {
+  display:flex;
+  gap:5px;
+}
+
+
+
+ 

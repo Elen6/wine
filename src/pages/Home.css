@@ -1,0 +1,109 @@
+.glass {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.glass-text {
+  font-family: Century Gothic;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-container {
+  /* height: 35%;
+    width: 10%;  */
+  border: solid 3px black;
+  margin: 3% 3%;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.view-container {
+  background: gray;
+  background: linear-gradient(270deg,
+      grey 0%, gray 35%, gray 45%);
+  border: solid 4px white;
+  margin-top: 200px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  color: white;
+  font-size: 30px;
+}
+
+.naturalWine {
+  margin-top: 3%;
+  font-family: Century Gothic;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lines {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  width: 100%;
+}
+
+.karmrahyut {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.text-karmrahyut {
+  width: 40%;
+}
+
+.karmrahyut_header {
+  font-family: Century Gothic;
+  font-style: normal;
+  font-size: 25px;
+  text-align: left;
+  text-align: center;
+}
+
+.karmrahyut_main_text {
+  margin-top: 30%;
+  font-family: Arial;
+  font-style: normal;
+  color: #616161;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  justify-content: right;
+}
+
+.photo-karmrahyut {
+  width: 55%;
+}
+
+.subscribe-header {
+font-family: Century Gothic;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color:  #2C2929;
+
+}
