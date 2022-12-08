@@ -1,24 +1,24 @@
  const wines= [ 
     {
     // title : "Sentimental",
-    
-    type: "Red Dry",
+    id: '1',
+    title: "Red Dry",
     price : 20,
     description: "Simonyans production",
     image: "/images/pic1.png"
 },
 {
     // title : "Sentimental",
-    
-    type: "Orange Dry",
+    id: '2',
+    title: "Orange Dry",
     price : 15,
     description: "Simonians production",
     image: "/images/pic1.png"
 },
 {
     // title : "Sentimental",
-   
-    type: "Rose Dry",
+    id: '3',
+    title: "Rose Dry",
     price : 25,
     description: "Simonyans production",
     image: "/images/pic1.png"
@@ -43,7 +43,18 @@
     
 ]
 
-export default wines;
+function getProductData(id) {
+    let productData = wines.find(product => product.id === id);
+
+    if (productData == undefined) {
+        console.log('Product data does not exist for ID:' + id);
+        return undefined;
+    }
+    return productData;
+}
+
+
+export {wines, getProductData};
 
 
 

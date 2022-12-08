@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/header';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Products from '../components/Products';
 import "./Home.css";
@@ -41,32 +41,7 @@ const Home = () => {
         </aside>
 
       </div>
-      <div className='subscribe'>
-
-
-
-        <div className='subscribe-header'>Subscribe for getting special offers</div>
-
-
-        <form className='subscribe-input'>
-
-                    {/* <form onSubmit={this.handleSubmit}> */}
-        {/* <label>
-          Name: */}
-          {/* <input type="text" value={this.state.value} onChange={this.handleChange} /> */}
-          {/* <input type='email' />
-        </label> */}
-        
-        <input type="email" />
-        <input type="submit" value="Submit" />
-                      {/* </form> */}
-         
-       
-          </form>
-
-
-
-      </div>
+      
       <Footer />
     </div>
   )

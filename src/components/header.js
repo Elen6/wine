@@ -1,4 +1,4 @@
-import Menu from './menu';
+import Menu from './Menu';
 import './Header.css';
 import { FiFacebook } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
@@ -11,7 +11,7 @@ import Ellipse from "../assets/Ellipse.png";
 
 
 
-function header() {
+function Header() {
   return (
     <header className="header">
 
@@ -33,12 +33,13 @@ function header() {
 
       <div className="ellips">
         <img className="logo" src={Ellipse} /> <br />
-         <p className='vernagir'> SENTIMENTAL </p> 
+        <p className='vernagir'> SENTIMENTAL </p>
       </div>
       <p className="BySimon">BY SIMONYANS </p>
 
 
       <Menu />
+
       <div className='view'>
         {/* divi poxaren routeri meji link grel u p-n hanel */}
         <div className="view-container" > <p1>VIEW ALL</p1></div>
@@ -62,4 +63,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
