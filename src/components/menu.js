@@ -45,7 +45,7 @@ const Menu = () => {
 
 
 
-      <div className="viewAll">STE PTI VIEW ALL LINI??? </div>
+      
     </>
   )
 }
