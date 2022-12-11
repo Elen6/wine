@@ -1,0 +1,80 @@
+h1 {
+    color: #2C2929;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.cartTitle {
+    color:  #2C2929;
+    font-family: Arial;
+    font-size: 25px;
+    
+    padding: 10px;
+    line-height: 20px;
+    
+}
+
+.cartText {
+    color: #1f1d1d;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+
+}
+
+cart-conteiner {
+    padding: 15px;
+}
+
+.addToCart {
+
+    color: white;
+    background-color: #2C2929;
+    padding: 10px;
+    margin-top: 10px;
+    height: 1.5%;
+    width: 100%;
+
+} 
+
+ .inCart   {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #2C2929;
+}
+
+
+ .plusMinus{
+    
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        background-color: #2C2929;
+
+    }  
+
+
+    .addOneToCart   {
+        padding-right: 20%;
+        background-color: #2C2929;
+        color: white;
+    }
+
+    .removeOneFromCart   {
+        padding-right: 20%;
+        background-color: #2C2929;
+        color: white;
+    }
+
+    .removeAll { 
+        background-color: #2C2929;
+        font-size: 15px;
+        font-family: Areal;
+        color: white;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+
+    } 

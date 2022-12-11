@@ -1,9 +1,11 @@
+
 .products-container {
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
+
 
 .box {
    /* align-items: center; */
@@ -25,13 +27,19 @@
     height: 608px;
     width: 510px;
     /* padding: 10px; */
+    margin-top: 3px;
 }
 
  .elem-type {
-    padding: 10px 10px;
+    margin-top: 3px;
+    padding: 10px 10px; 
     align-items: center;
+   
+    line-height: 20px;
+  
 }
 .elem-price {
     padding: 10px;
     align-items: center;
 }
+

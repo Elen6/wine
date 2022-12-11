@@ -1,0 +1,25 @@
+
+
+h1 {
+    color: #000000;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.store_container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+
+.elem-type {
+    padding: 10px 10px;
+    align-items: center;
+}
+.elem-price {
+    padding: 10px;
+    align-items: center;
+}
