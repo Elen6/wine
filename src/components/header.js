@@ -7,7 +7,7 @@ import { CiHeart } from 'react-icons/ci';
 import { BsPerson } from 'react-icons/bs';
 import { CiShoppingBasket } from 'react-icons/ci';
 import Ellipse from "../assets/Ellipse.png";
-// import glass from "../assets/glass.png";
+
 
 
 

@@ -19,22 +19,18 @@ const Menu = () => {
       <nav className='menu'>
         <ul className='list' >
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/about">About US</Link>
+            <Link to="/about">ABOUT US</Link>
           </li>
-          <li>
-            <Link to="/exclusive">SENTIMENTAL EXCLUSIVE</Link>
-          </li>
+          
           <li>
             <Link to="/store">SHOP WINE</Link>
           </li>
+          
           <li>
-            <Link to="/favorites">SENTIMENTAL FAVORITES</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact US</Link>
+            <Link to="/contact">CONTACT US</Link>
           </li>
           <li>
             <button className='modalBtn' onClick={() => setOpenModal(true)}>Cart ({productsCount} Items) </button>
