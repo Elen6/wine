@@ -42,7 +42,10 @@ hr {
 .socials {
   display:flex;
   gap:5px;
+  color:white;
 }
+
+
 
 
 

@@ -39,8 +39,8 @@ const Footer = () => {
                             <li> <a href="#">Lng</a></li>
                             <li> <a href="#">Follow us</a></li>
                             <div className="socials">
-                            <li><FiFacebook/></li>
-                            <li><FaInstagram/> </li>
+                            <li><a href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"><FiFacebook className='face'/> </a></li>
+                            <li><a href="https://www.instagram.com/sentimental.wine/?fbclid=IwAR0_uz6ZUMIoFh9OS6t9J144MVRMKN9P-ZjZ3TQJDMb8h2iG5xeOEg0f_wQ"><FaInstagram/></a></li>
                             </div>
                         </ul>
                     </div>

@@ -74,8 +74,18 @@
   width: 100%;
   gap: 20px;
   padding: 30px;
-
+  color:white;
 }
+
+.face {
+  color: white;
+}
+
+.insta {
+  color:white;
+}
+
+
 
 .header {
   background-image: url(../assets/pic4.png), url(../assets/pic1.png);

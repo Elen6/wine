@@ -21,8 +21,15 @@ function Header() {
 
       </div>
       <ul className="socials1">
-        <li><FiFacebook size="25px" /></li>
-        <li><FaInstagram size="25px" /> </li>
+        <li>
+        <a href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"
+       >
+        <FiFacebook size="25px" className='face'  />
+      </a>
+        </li>
+        <li> <a href="https://www.instagram.com/sentimental.wine/?fbclid=IwAR0_uz6ZUMIoFh9OS6t9J144MVRMKN9P-ZjZ3TQJDMb8h2iG5xeOEg0f_wQ">
+        <FaInstagram size="25px" className='insta' />
+      </a></li>
         <div className="Icons2">
           <li><IoIosSearch size="25px" /> </li>
           <li><CiHeart size="25px" /></li>

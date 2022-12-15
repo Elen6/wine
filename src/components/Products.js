@@ -1,8 +1,26 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { wines } from '../api/wines';
 import './Products.css';
 
 const Products = () => {
+console.log(1)
+const [wines,setWines]=useState([]);
+useEffect(() => {
+  const url = "http://localhost:5000/wine";
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data);
+      setWines(data)
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+
+  fetchData();
+}, []);
   return (
     <div>
       {/* products container */}
