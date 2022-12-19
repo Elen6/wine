@@ -31,14 +31,17 @@
   font-size: 30px;
 }
 
+.shopStore {
+  color: black;
+}
 .view-container {
   background: gray;
   background: linear-gradient(270deg,
       grey 0%, gray 35%, gray 45%);
   border: solid 4px white;
-  margin-top: 200px;
-  width: 250px;
-  height: 200px;
+  margin-top: 170px;
+  width: 220px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Products from '../components/Products';
 import "./Home.css";
 import glass from "../assets/glass.png";
+import { Link } from "react-router-dom"; 
 
 
 
@@ -20,7 +21,9 @@ const Home = () => {
 
       <p className="glass-text"> Life is too short to drink bad wine </p>
 
-      <div className='shop'>  <div className='shop-container'> Shop </div>     </div>
+      <div className='shop'>  <div className='shop-container'><Link to="/store" className='shopStore'> Shop </Link> </div>     </div>
+
+      
 
       <Products />
 

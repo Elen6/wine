@@ -28,7 +28,7 @@ const Store = () => {
  
   return (
     <>
-      <Menu />
+      <Menu basket />
 
       <h1> Welcome to the store! </h1>
       <div className='store_container'>

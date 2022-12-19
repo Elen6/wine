@@ -3,11 +3,12 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import './Contact_us.css';
 import sent_bySimon from "../assets/sent_bySimon.png";
+import {sendMessege} from '../api/contact';
 
 
 
 const Contact_us = () => {
-  const [state, setState] = useState({})
+  const [state, setState] = useState([])
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => {
@@ -17,7 +18,7 @@ const Contact_us = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-
+sendMessege(state)
     console.log(state)
     e.target.reset()
   }
@@ -40,7 +41,7 @@ const Contact_us = () => {
 
               <input
                 onChange={handleChange}
-                name="Name"
+                name="name"
                 type="text"
 
                 required
@@ -50,7 +51,7 @@ const Contact_us = () => {
 
               <input
                 onChange={handleChange}
-                name="Surname"
+                name="surname"
                 type="text"
                 placeholder='Surname'
                 required
@@ -59,7 +60,7 @@ const Contact_us = () => {
 
               <input
                 onChange={handleChange}
-                name="e-mail"
+                name="email"
                 type="email"
                 required
                 placeholder='E-mail'

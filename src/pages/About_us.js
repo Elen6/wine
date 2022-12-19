@@ -2,12 +2,9 @@ import React from 'react'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer';
 import './About_us.css';
-import Ellipse from "../assets/Ellipse.png";
 import pic4 from "../assets/pic4.png";
-import { IoIosSearch } from 'react-icons/io';
-import { CiHeart } from 'react-icons/ci';
-import { BsPerson } from 'react-icons/bs';
-import { CiShoppingBasket } from 'react-icons/ci';
+import sent_bySimon from "../assets/sent_bySimon.png";
+
 
 
 
@@ -15,46 +12,12 @@ import { CiShoppingBasket } from 'react-icons/ci';
 const About_us = () => {
   return (
     <>
-
-
-      <ul className="socials1-about">
-        <div className="Icons2">
-          <li><IoIosSearch size="25px" /> </li>
-          <li><CiHeart size="25px" /></li>
-          <li><BsPerson size="25px" /></li>
-          <li> <CiShoppingBasket size="25px" /></li>
+ <div className='about-container' >
+        <img className='sent_bySimonAbout' src={sent_bySimon} alt="logo" />
+        <div className='menu-about'>
+          <Menu />
         </div>
-      </ul>
-
-      <div className="ellips-about">
-        <img className="logo-about" src={Ellipse} width='70px' height='70px' /> <br />
-        <p className='vernagir-about'> SENTIMENTAL </p>
-      </div>
-      <p className="BySimon-about">BY SIMONYANS </p>
-
-
-
-      {/* <div>
-        <div header-container-about>
-
-          <img className="logo_about" src={Ellipse} />
-
-
-          <p className='header-about'> SENTIMENTAL </p>
-
-        </div>
-
-        <p className="BySimon-about">BY SIMONYANS </p>
-
-      </div> */}
-
-      <div>
-
-
-        <Menu className='menuAbout' />
-      </div>
-
-
+ </div>
 
 
       <div className='photo_about'>

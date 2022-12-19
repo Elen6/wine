@@ -4,10 +4,11 @@ import "./Menu.css";
 import { useState, useContext } from 'react';
 import { CartContext } from '../CartContext';
 import Modal from './Modal';
+import { CiShoppingBasket } from 'react-icons/ci';
 
 
 
-const Menu = () => {
+const Menu = ({tandz, color, basket}) => {
 
   const cart = useContext(CartContext)
   const [openModal, setOpenModal] = useState(false)
@@ -16,25 +17,26 @@ const Menu = () => {
 
   return (
     <>
-      <nav className='menu'>
+      <nav className={`menu ${tandz ? 'menu1': ""}`}>
         <ul className='list' >
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/" className={`${color ? 'link1': "link"}`}>HOME</Link>
           </li>
           <li>
-            <Link to="/about">ABOUT US</Link>
+            <Link to="/about" className={`${color ? 'link1': "link"}`}>ABOUT US</Link>
           </li>
           
           <li>
-            <Link to="/store">SHOP WINE</Link>
+            <Link to="/store"  className={` ${color ? 'link1': "link"}`}>SHOP WINE</Link>
           </li>
           
           <li>
-            <Link to="/contact">CONTACT US</Link>
+            <Link to="/contact"  className={`${color ? 'link1': "link"}`}>CONTACT US</Link>
           </li>
           <li>
-            <button className='modalBtn' onClick={() => setOpenModal(true)}>Cart ({productsCount} Items) </button>
+          <button className={`${ basket ? 'modalBtn1': "modalBtn"}`} onClick={() => setOpenModal(true)}> <li> <CiShoppingBasket size="25px" /></li>Cart ({productsCount} Items) </button>
           </li>
+          
         </ul>
       </nav>
       <Modal open={openModal} onClose={() => setOpenModal(false)} />

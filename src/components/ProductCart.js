@@ -3,6 +3,7 @@ import { CartContext } from '../CartContext';
 import { useContext } from 'react';
 import './ProductCart.css'
 
+
 function ProductCart(props) { // props.product is the product we are selling
     const product = props.product;
     const cart = useContext(CartContext);
@@ -18,7 +19,7 @@ function ProductCart(props) { // props.product is the product we are selling
                 { productQuantity > 0 ?
                     <div className='cart-conteiner'>
                       
-                                <p className='inCart'>In Cart: {productQuantity}</p>
+                                <p className='inCart'> In Cart: {productQuantity}</p>
                             
                            <div className='plusMinus'>
                                 <button  onClick={() => cart.addOneToCart(product.id)} className='addOneToCart'> + </button>

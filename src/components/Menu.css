@@ -4,3 +4,11 @@
     height: 100px;
     color: black;
 }
+
+.modalBtn {
+    display: none;
+}
+
+.modalBtn1 {
+    display: block;
+}
