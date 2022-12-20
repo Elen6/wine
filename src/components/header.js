@@ -2,8 +2,8 @@ import Menu from './Menu';
 import './Header.css';
 import { FiFacebook } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
-
-import { BsPerson } from 'react-icons/bs';
+import { Link } from "react-router-dom"; 
+// import { BsPerson } from 'react-icons/bs';
 
 import Ellipse from "../assets/Ellipse.png";
 
@@ -21,7 +21,8 @@ function Header() {
       </div>
       <ul className="socials1">
         <li>
-        <a href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"
+        <a target="_blank" 
+         href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"
        >
         <FiFacebook size="25px" className='face'  />
       </a>
@@ -47,7 +48,13 @@ function Header() {
 
       <div className='view'>
         {/* divi poxaren routeri meji link grel u p-n hanel */}
-        <div className="view-container" > <p1>VIEW ALL</p1></div>
+        <div className="view-container" > 
+        <p>
+      
+         <Link to= "/store"> VIEW ALL </Link>
+         {/* <li><Link to="/div className="products-container">About Us</Link></li>  */}
+          </p>
+        </div>
       </div>
 
     </header>

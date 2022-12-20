@@ -15,9 +15,9 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <li><Link to="/about">About Us</Link></li>
                             <li><Link to="/contact">Contact Us</Link></li>
-                            <li><Link to="#">Order</Link></li>
+                            {/* <li><Link to="#">Order</Link></li>
                             <li><Link to="#">FAQ</Link></li>
-                            <li><Link to="#">Personal info</Link></li>
+                            <li><Link to="#">Personal info</Link></li> */}
                         </ul>
                     </div>
                     {/* colomn 2 */}
@@ -36,11 +36,11 @@ const Footer = () => {
 
                     <div className="col">
                         <ul className="list-unstyled">
-                            <li> <a href="#">Lng</a></li>
-                            <li> <a href="#">Follow us</a></li>
+                            <li>Lng</li>
+                            <li> Follow us</li>
                             <div className="socials">
-                            <li><a href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"><FiFacebook className='face'/> </a></li>
-                            <li><a href="https://www.instagram.com/sentimental.wine/?fbclid=IwAR0_uz6ZUMIoFh9OS6t9J144MVRMKN9P-ZjZ3TQJDMb8h2iG5xeOEg0f_wQ"><FaInstagram/></a></li>
+                            <li><a target="_blank" href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"><FiFacebook className='face'/> </a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/sentimental.wine/?fbclid=IwAR0_uz6ZUMIoFh9OS6t9J144MVRMKN9P-ZjZ3TQJDMb8h2iG5xeOEg0f_wQ"><FaInstagram/></a></li>
                             </div>
                         </ul>
                     </div>
