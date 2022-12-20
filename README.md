@@ -8,31 +8,32 @@ My project is an online wine store, where you can buy wines
 
 ## Features
 
-Opportunity to see the list products
+Ability to see the listed products
 
-Ability to see the Cart and it items
+Ability to see the Cart and its items
 
-Ability of add a new Item on the Cart
+Ability to add a new Item to the Cart
 
 ### Resources
 
-Create React App
-React-bootstrap
-React icons
-React Router
-UseContext
+* Create React App
+* React-bootstrap
+* React icons
+* React Router
+* UseContext
 
 
 # Getting Started with Create React App
 
  Follow the following steps to get development environment running.
- 1. Clone repository from GitHub https://github.com/Elen6/wine
+     ```
+     git clone https://github.com/Elen6/wine.git
+     cd wine
+     npm install 
+     npm start
+     ```
 
- 2. Install node modules npm install
-
- 3. Build application npm start
-
-  ##Wine-backend [1]: https://github.com/Elen6/wine-backend "Backend"
+  ## Wine-backend [1]: https://github.com/Elen6/wine-backend "Backend"
 
 
 ### Author
