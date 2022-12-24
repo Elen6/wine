@@ -8,11 +8,11 @@ My project is an online wine store, where you can buy wines
 
 ## Features
 
-Ability to see the listed products
+*Ability to see the listed products
 
-Ability to see the Cart and its items
+*Ability to buy via Paypal
 
-Ability to add a new Item to the Cart
+
 
 ### Resources
 
