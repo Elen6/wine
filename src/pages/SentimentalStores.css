@@ -1,0 +1,131 @@
+.wholePage {
+    background-color:#F5F5F5 ;
+}
+.allSent {
+    background-color:#F5F5F5 ;
+}
+
+.sent-container {
+    background-color: #F5F5F5;;
+}
+
+.sent_bySimonSent {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+   
+}
+
+.ourStor {
+    color: #2C2929;
+    font-family: Arial;
+    font-size:30px;
+    text-align: center;
+    margin-top: 5%;
+    line-height: 35.6px;
+    letter-spacing: 0.125em;
+    
+}
+
+.lines-sent {
+
+        display: flex;
+        justify-content: center;
+       
+        margin: 5%;
+        width: 100%;
+
+    }
+
+ .storesContainer {
+    display:flex;
+    /* justify-content:space-between; */
+    gap: 3%;
+    flex-wrap: wrap;
+    
+    margin: 6%;
+
+
+} 
+
+.alcohol {
+    font-family: Century Gothic;
+    color: #2C2929;
+    line-height: 29.67px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.11em;
+    margin-top: 20%;
+    margin-bottom: 40px;
+    
+}
+
+.headerStore {
+    color: #000000;
+    font-family: Century Gothic;
+    line-height: 29.67px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+ 
+}
+
+
+.socSent {
+    margin-bottom: 50px;
+}
+
+.socSent a {
+    margin-right: 20px  ;
+}
+
+.face-sent  {
+    color: #2C2929;
+
+}
+
+.text-store {
+    margin-bottom: 50px;
+
+}
+
+
+.storesContainer1 {
+
+    display:flex;
+    /* justify-content:space-between; */
+    gap: 3%;
+    flex-wrap: wrap;
+    
+    margin: 6%;
+
+
+}
+
+.arandzin {
+   
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.storePhoto {
+    width: 50%;
+    height: auto ;
+}
+
+.storeText {
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+

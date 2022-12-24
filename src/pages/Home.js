@@ -40,7 +40,7 @@ const Home = () => {
           After trying it you will remember its miracle taste wishing to enjoy it again and again...</p></div>
 
         <aside className='photo-karmrahyut'>
-          <img className='karmrahyutPhoto' width='835px' height='800px' src="/images/karmrahyut.jpg" alt='img' />
+          {/* <img className='karmrahyutPhoto' width='835px' height='800px' src="/images/karmrahyut.jpg" alt='img' /> */}
         </aside>
 
       </div>

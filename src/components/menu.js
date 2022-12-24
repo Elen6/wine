@@ -8,7 +8,7 @@ import { CiShoppingBasket } from 'react-icons/ci';
 
 
 
-const Menu = ({tandz, color, basket}) => {
+const Menu = ({backgroundColor, color, basket}) => {
 
   const cart = useContext(CartContext)
   const [openModal, setOpenModal] = useState(false)
@@ -17,7 +17,7 @@ const Menu = ({tandz, color, basket}) => {
 
   return (
     <>
-      <nav className={`menu ${tandz ? 'menu1': ""}`}>
+      <nav className={`menu ${backgroundColor ? 'menu1': ""}`}>
         <ul className='list' >
           <li>
             <Link to="/" className={`${color ? 'link1': "link"}`}>HOME</Link>
@@ -34,12 +34,15 @@ const Menu = ({tandz, color, basket}) => {
             <Link to="/contact"  className={`${color ? 'link1': "link"}`}>CONTACT US</Link>
           </li>
           <li>
-          <button className={`${ basket ? 'modalBtn1': "modalBtn"}`} onClick={() => setOpenModal(true)}> <li> <CiShoppingBasket size="25px" /></li>Cart ({productsCount} Items) </button>
+            {/* <Link to="/SentimentalStores"  className={`${color ? 'link1': "link"}`}>OUR STORES</Link> */}
           </li>
+          {/* <li>
+          <button className={`${ basket ? 'modalBtn1': "modalBtn"}`} onClick={() => setOpenModal(true)}> <li> <CiShoppingBasket size="25px" /></li>Cart ({productsCount} Items) </button>
+          </li> */}
           
         </ul>
       </nav>
-      <Modal open={openModal} onClose={() => setOpenModal(false)} />
+      {/* <Modal open={openModal} onClose={() => setOpenModal(false)} /> */}
 
 
 

@@ -85,8 +85,9 @@ sendMessege(state)
 
           </div>
         </div>
-      </div>
+      
       <Footer />
+      </div>
     </div>
   )
 }

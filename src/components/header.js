@@ -36,24 +36,29 @@ function Header() {
           
         </div>
       </ul>
-        <div className='sentimental-container'>
+        {/* <div className='sentimental-container'> */}
+
+
       <div className="ellips">
         <img className="logo" src={Ellipse} /> <br />
-        <p className='vernagir'> SENTIMENTAL </p>
-      </div>
-      <p className="BySimon">BY SIMONYANS </p>
-      </div>
+        <p className='vernagir'> SENTIMENTAL </p> 
+      {/* </div> */}
+      
+    </div> 
 
-    <Menu tandz color />
+    <p className="BySimon">BY SIMONYANS </p>
+
+
+    <Menu backgroundColor color />
 
       <div className='view'>
         {/* divi poxaren routeri meji link grel u p-n hanel */}
         <div className="view-container" > 
-        <p>
+        
       
-         <Link to= "/store"> VIEW ALL </Link>
+         <Link to= "/store" className='linkStore'> VIEW ALL </Link>
          {/* <li><Link to="/div className="products-container">About Us</Link></li>  */}
-          </p>
+          
         </div>
       </div>
 

@@ -8,6 +8,7 @@ import Contact_us from './pages/Contact_us';
 
 
 import Store from './pages/Store';
+import SentimentalStores from './pages/SentimentalStores';
 
 
 
@@ -32,6 +33,7 @@ function App() {
               {/* <Route path='/shop' element={< NavbarComponent />}></Route> */}
               
               <Route path='/store' element={<Store />}></Route>
+             <Route path='/SentimentalStores' element={<SentimentalStores />}></Route> 
             </Routes>
           </BrowserRouter>
 

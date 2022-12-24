@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'; 
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 import { FiFacebook } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
 
@@ -24,8 +24,9 @@ const Footer = () => {
 
                     <div className="col">
                         <ul className="list-unstyled">
-                            <li> <a href="#">Store</a></li>
-                            <li> <a href="#">See our stors</a></li>
+                            <li>Store</li>
+                            <li><Link to="/SentimentalStores">See our stores</Link></li>
+                           
                            
                             
 
@@ -36,7 +37,7 @@ const Footer = () => {
 
                     <div className="col">
                         <ul className="list-unstyled">
-                            <li>Lng</li>
+                           
                             <li> Follow us</li>
                             <div className="socials">
                             <li><a target="_blank" href="https://m.facebook.com/sentimental.wine?eav=AfYz-3Fj4bqOP2dDcAzWUmKOLiMmWpNreDdncAONdBrVwrkt9R4OzGwqCl1dpG_0ccc&paipv=0&_rdr"><FiFacebook className='face'/> </a></li>

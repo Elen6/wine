@@ -34,21 +34,7 @@
 .shopStore {
   color: black;
 }
-.view-container {
-  background: gray;
-  background: linear-gradient(270deg,
-      grey 0%, gray 35%, gray 45%);
-  border: solid 4px white;
-  margin-top: 170px;
-  width: 220px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial;
-  color: white;
-  font-size: 30px;
-}
+
 
 .naturalWine {
   margin-top: 3%;

@@ -12,12 +12,14 @@ import sent_bySimon from "../assets/sent_bySimon.png";
 const About_us = () => {
   return (
     <>
+    <div className='allAbout'>
  <div className='about-container' >
         <img className='sent_bySimonAbout' src={sent_bySimon} alt="logo" />
+        </div>
         <div className='menu-about'>
           <Menu />
         </div>
- </div>
+
 
 
       <div className='photo_about'>
@@ -42,7 +44,7 @@ const About_us = () => {
 
       <div>
 
-
+      </div>
         <Footer />
       </div>
 

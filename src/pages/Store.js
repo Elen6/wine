@@ -1,4 +1,7 @@
 import React, {useEffect, useState} from 'react'
+import sent_bySimon from "../assets/sent_bySimon.png";
+
+import {Row, Col} from 'react-bootstrap';
 
 // import { productsArray } from '../wines'
 
@@ -28,7 +31,16 @@ const Store = () => {
  
   return (
     <>
-      <Menu basket />
+    <div className='allStore'>
+    <div className='store-container' >
+        <img className='sent_bySimonStore' src={sent_bySimon} alt="logo" />
+        <div className='menu-store'>
+          </div>
+
+          <div>
+          <Menu basket />
+        </div>
+ </div>
 
       <h1> Welcome to the store! </h1>
       <div className='store_container'>
@@ -41,9 +53,10 @@ const Store = () => {
 
         }
       </div>
+      
 
       <Footer />
-
+      </div>
     </>
   )
 }

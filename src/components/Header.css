@@ -11,7 +11,8 @@
   background: #460606;
   color: white;
   text-align: center;
-  padding: 10px; 
+  /* padding: 10px;  */
+  padding: 0.7%
   /* Поля вокруг текста */
 }
 
@@ -19,26 +20,21 @@
   display: flex;
   justify-content: center;
   gap: 15px;
-  font-size: 40px;
+  /* font-size: 40px; */
+  /* font-size: 20%;
   font-family: Bell MT;
+} */
 }
-
 .logo {
   width: 100px;
   height: 100px;
 }
 
-/* h1 {
-
-  font-size: 100px;
-  color: white;
-  margin-top: 1px;
-  font-family: Bell MT;
-} */
 
 .vernagir {
   
-  font-size: 100px;
+  /* font-size: 100px; */
+  font-size: 600%;
   color: white;
   /* margin-top: 0,01px;  */
   font-family: Bell MT;
@@ -47,29 +43,30 @@
 .BySimon {
   font-family: bell MT;
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 200%;
   color: white;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 1.3%;
 }
 
 .sentimental-container {
-   margin-top: 0.3px;
+   /* margin-top: 0.3px; */
 }
 
 .menu {
   /* background: rgb(70, 6, 6); */
-  background-color: aliceblue;
+  background-color: #F5F5F5;;
  
   
   /* color: white; */
  
-  padding: 4px 8px;
+  /* padding: 4px 8px; */
 
 }
 
 .menu1  {
- 
-  background: linear-gradient(270deg, rgba(70, 6, 6, 0) 0%, rgba(70, 6, 6, 0.03405112044817926) 35%, rgba(70, 6, 6, 1) 45%) !important ;
+ background: linear-gradient(270deg, rgba(70, 6, 6, 0) 0%, rgba(70, 6, 6, 0.03405112044817926) 35%, rgba(70, 6, 6, 1) 45%) !important ;
   /* margin-top: 50%; */
 }
 .link {
@@ -81,8 +78,11 @@
 .socials1 {
   display: flex;
   gap: 20px;
-  padding: 50px; 
-  padding-bottom: 3px;
+  /* padding: 50px;  */
+  padding: 2%;
+
+  /* padding-bottom: 3px; */
+  /* padding-bottom: 3px; */
   color: white;
 
 }
@@ -111,8 +111,13 @@
   background-image: url(../assets/pic4.png), url(../assets/pic1.png);
   background-position: left, right;
   background-repeat: no-repeat;
+  /* background-size: 0 50% 0 50%; */
   background-size: 50%;
-  height: 100vh;
+ 
+
+  /* background-image: 50%; */
+  height: 100vh;  
+  
 }
 
 .view {
@@ -121,6 +126,37 @@ justify-content: center;
 /* align-items: center; */
 width: 100%;
 height: 30%;
+color:white;
 }
+
+
+.view-container {
+  background: gray;
+  background: linear-gradient(270deg,
+      grey 0%, gray 35%, gray 45%);
+  border: solid 4px white;
+  margin-top: 170px;
+  width: 220px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  color: white;
+  font-size: 30px;
+}
+
+.linkStore {
+  color:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
 
 

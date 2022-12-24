@@ -21,8 +21,9 @@
 .main-footer {
   background-color: #2C2929;
   border: 2px;
-   padding: 130px 0; 
+  padding: 130px 0; 
    margin-top: 5%;
+   width: 100%;
 }
 
 hr {
@@ -43,6 +44,10 @@ hr {
   display:flex;
   gap:5px;
   color:white;
+}
+
+@media screen and (max-width:700px) {
+
 }
 
 
